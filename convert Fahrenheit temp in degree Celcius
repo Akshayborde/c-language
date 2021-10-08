@@ -1,0 +1,18 @@
+
+/* WAP to convert Fahrenheit temp in degree Celsius */
+
+
+#include<stdio.h>
+int main()
+{
+float Fahrenheit,celsius;
+printf("Enter temperature in Fahrenheait:");
+scanf("%f",&Fahrenheit);
+
+celsius=(Fahrenheit-32)*5/9;
+
+
+printf("%f celsius",celsius);
+
+return 0;
+}

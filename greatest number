@@ -1,0 +1,16 @@
+/* Write a program which will accept three integer numbers from user and find out greatest 
+among them using conditional operator.*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,greatest;
+     
+    printf("Enter any three number:");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    greatest=a>b&&a>c?a:b>c?b:c;
+    
+    printf("\nThe gretast number is:%d",greatest);
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int area,width,lenght;
+printf("Enter width of rectangle:");
+scanf("%d",&width);
+
+printf("Enter lenght of rectangle:");
+scanf("%d",&lenght);
+
+Area=Width*lenght;
+
+printf("Area of rectangle is%d:",rectangle);
+return 0;
+}

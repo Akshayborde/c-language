@@ -1,0 +1,27 @@
+/* WAP to demonstrate arithmetic operation on two integer numbers.*/
+ #include<stdio.h>
+ int main()
+ {
+ int a,b;
+int sum,sub,multi,mod;
+float div;
+printf("Enter first number:");
+scanf("%d",&a);
+
+printf("Enter second number:");
+scanf("%d",&b);
+
+sum=a+b;
+multi=a*b;
+div=a/b;
+sub=a-b;
+mod=a%b;
+
+printf("addition of %d+%d=%d\n",a,b,sum);
+printf("multiplication of %d*%d=%d\n",a,b,multi);
+printf("subtraction of %d-%d=%d\n",a,b,sub);
+printf("division of %d/%d=%f\n",a,b,div);
+printf("modules of %d%%%d=%d\n",a,b,mod);
+
+return 0;
+}
